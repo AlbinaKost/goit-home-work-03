@@ -6,15 +6,13 @@
 .header {
   padding-top: 24px;
   padding-bottom: 24px; 
+  border-bottom: 1px  solid #e7e9fc;
 }
-.nav {
+
+.header-navigation {
   display: flex;
   align-items: center;
 }
-.header-navigation {
-  
-}
-
 
 p,h1,h2,h3 {
 margin-top: 0;
@@ -33,8 +31,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border-bottom: 1px; 
-  color: solid #e7e9fc;
   display: flex;
 }
 .container-link {
@@ -137,10 +133,13 @@ img {
 .title-text {
   line-height: 1.2;
 }
+.main-info {
+  padding: 120px 0;
+}
  .main-info-list-item {
   display: flex; 
   gap: 24px; 
-  width: calc;
+  width: 100%;
  }
  .title-link {
   color:#2E2F42;
@@ -196,7 +195,7 @@ letter-spacing: 0.02em;
  }
 
  .portfolio {
-  padding: 120px o;
+  padding: 120px; o;
  }
 
  .portfolio-list {
@@ -236,9 +235,7 @@ letter-spacing: 0.02em;
   font-size: 16px;
  }
 
-.footer {
-  
-   }
+
 
 .footer-container {
   padding: 101,5px o 100px 156px;
@@ -248,7 +245,6 @@ letter-spacing: 0.02em;
  .span-footer-studio {
   color: #F4F4FD;
  }
- 
 
  .footer-html {
   font-family: "Raleway",sans-serif;
@@ -260,6 +256,7 @@ letter-spacing: 0.02em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 18px; 
+  
  }
 .footer-container {
  margin-bottom: 17,5px;
