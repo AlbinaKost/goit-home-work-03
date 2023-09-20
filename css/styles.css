@@ -7,6 +7,7 @@
   padding-top: 24px;
   padding-bottom: 24px; 
   border-bottom: 1px  solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -49,12 +50,12 @@ img {
  .header-menu-list {
   color: #2e2f42;
  }
-.hero {
+.hero-class {
    background: #2E2F42; 
-   padding-bottom: 292px;
-   padding:188px 472px 472px;
+   padding: 188px 0;
+  
 }
-
+ 
  .header-logo {
    color: #4d5ae5 ;
    font-size: 18px;
@@ -105,6 +106,7 @@ img {
   letter-spacing: 0.02em;
   font-size: 56px;
   margin-bottom: 48px;
+  max-width: 496px; 
  }
 
 
@@ -118,6 +120,12 @@ img {
   text-transform: capitalize;
   text-align: center;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
 }
   .hero-bye-btn:hover {
     background-color: #404BBF;
@@ -195,7 +203,7 @@ letter-spacing: 0.02em;
  }
 
  .portfolio {
-  padding: 120px; o;
+  padding: 120px o;
  }
 
  .portfolio-list {
