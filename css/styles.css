@@ -50,10 +50,11 @@ img {
  .header-menu-list {
   color: #2e2f42;
  }
-.hero-class {
-   background: #2E2F42; 
-   padding: 188px 0;
-  
+.hero-class {  
+     padding: 188px 0;
+}
+.hero-container {
+  background: #2E2F42; 
 }
  
  .header-logo {
@@ -256,6 +257,7 @@ letter-spacing: 0.02em;
 
  .footer-html {
   font-family: "Raleway",sans-serif;
+  
  }
 .footer-html {
   color: #4D5AE5;
@@ -263,8 +265,7 @@ letter-spacing: 0.02em;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-size: 18px; 
-  
+  font-size: 18px;
  }
 .footer-container {
  margin-bottom: 17,5px;
