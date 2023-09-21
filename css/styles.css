@@ -143,12 +143,7 @@ img {
 .title-text {
   line-height: 1.2;
 }
-.visually-hidden {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
-  visibility: hidden;
-}
+
 .main-info {
   padding: 120px 0;
   display: flex; 
