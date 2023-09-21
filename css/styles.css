@@ -4,11 +4,10 @@
     color: #434455;
  }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px; 
   border-bottom: 1px  solid #e7e9fc;
-  padding: 24px 0;
+ 
 }
+ 
 
 .header-navigation {
   display: flex;
@@ -77,6 +76,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
  }
 
 .header-link:hover {color: #404bbf;}
@@ -166,18 +167,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
  }
 
- .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+ 
 .contact-aside-item {
   background-color: #F4F4FD;
   padding-top: 120px 0;
@@ -299,7 +289,6 @@ letter-spacing: 0.02em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 18px;  
-  display: inline-block;
   margin-bottom: 16px;
  }
   
@@ -307,7 +296,7 @@ letter-spacing: 0.02em;
  
 .footer-container {
  margin-bottom: 17,5px;
- padding: 100px 0;
+ 
 }
 
 
