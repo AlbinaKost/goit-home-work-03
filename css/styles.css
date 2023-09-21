@@ -144,11 +144,11 @@ img {
 }
 .main-info {
   padding: 120px 0;
-}
- .main-info-list-item {
   display: flex; 
   gap: 24px; 
-  width: 100%;
+}
+ .main-info-list-item { 
+ width: calc((100% - 72px) / 4); 
  }
  .title-link {
   color:#2E2F42;
@@ -165,6 +165,19 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
  }
+
+ .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .contact-aside-item {
   background-color: #F4F4FD;
   padding-top: 120px 0;
