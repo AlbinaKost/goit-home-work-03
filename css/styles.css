@@ -253,7 +253,7 @@ letter-spacing: 0.02em;
  }
 
  .portfolio {
- padding: 120px 0;
+ padding-bottom: 120px;
  }
 
  .portfolio-list {
@@ -294,7 +294,7 @@ letter-spacing: 0.02em;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-size: 20px;
-  margin-bottom: 8px;
+  
   
 }
 
@@ -331,7 +331,9 @@ letter-spacing: 0.02em;
   font-size: 18px;  
   margin-bottom: 16px;
  }
-
+.footer-html {
+  text-decoration: none;
+}
 
 .footer-paragraph {
   color: #F4F4FD;
